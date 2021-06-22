@@ -22,7 +22,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         title = "To Do List"
         view.addSubview(table)
         table.dataSource = self
-        
+        print("Alex")
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
